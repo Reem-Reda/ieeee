@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    <style>
+        table {
+            width: 100;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>task3</h1>
+    <table>
+        <tr>
+          
+            <td>
+                <p>welcome</p>
+                <p>you are a wonderful</p>
+            </td>
+
+
+            <td>
+                <img src="C:\Users\redas\Pictures\cat.jpg" alt="cat" width="100" height="50" >
+            </td>
+
+
+            <td>
+                <p>This is iframe</p>
+                <iframe src="https://icpc.global/" width="200" height="100" style="border: 1px solid black;"></iframe>
+            </td>
+
+ 
+            <td>
+                <video width="200" height="100" controls>
+                    <source src="C:\Users\redas\Pictures\الحقونا.mp4" type="video/mp4" width="200" height="100">
+                    Your browser does not support the video tag.
+                </video>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4">
+                <audio controls>
+                    <source src="C:\Users\redas\Pictures\iee.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+    </table>
+ <h1>Registration Form</h1>
+    <form action="thankyou.htm" method="post">
+        <!-- First Name -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+
+        <label for="RB">Repeat Password:</label>
+        <input type="password" id="RB" name="RB" required><br><br>
+
+        <label for="picture">Upload Picture:</label>
+        <input type="file" id="picture" name="picture" accept="image/png ,image/jpg" requried><br><br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female" required>
+            <label for="female">Female</label>
+        </fieldset><br>
+
+        <label for="faculty">Faculty:</label>
+        <select id="faculty" name="faculty" required>
+            <option value="AI">AI</option>
+            <option value="CS">CS</option>
+            <option value="OT">OT</option>
+            <option value="medicine">Medicine</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Interests:</legend>
+            <input type="checkbox" id="programming" name="interests" value="Programming">
+            <label for="programming">Programming</label><br>
+            <input type="checkbox" id="reading" name="interests" value="Reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="swimming" name="interests" value="Swimming">
+            <label for="swimming">Swimming</label><br>
+        </fieldset><br>
+
+
+        <label for="about">About You:</label><br>
+        <textarea id="about" name="about" rows="5" cols="20" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+<h1>Thank you for your registration.</h1>
+    <h2>&ltThank&gt YOU &lt/Thank&gt</h2>
+
+</body>
+</html>
